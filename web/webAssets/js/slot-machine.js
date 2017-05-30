@@ -1,21 +1,21 @@
 var machine4 = $("#casino1").slotMachine({
     active: 0,
-    delay: 500
+    delay: 100
 });
 
 var machine5 = $("#casino2").slotMachine({
     active: 1,
-    delay: 500
+    delay: 100
 });
 
 var machine6 = $("#casino3").slotMachine({
     active: 2,
-    delay: 500
+    delay: 100
 });
 
 var machine7 = $("#casino4").slotMachine({
     active: 3,
-    delay: 500
+    delay: 100
 });
 
 var started = 0;
@@ -32,7 +32,7 @@ var tokenUsuario = null;
 $(document).click(function () {
 
     if (machine4.running || machine5.running || machine6.running || machine7.running) {
-        console.log(arregloPremios);
+        //console.log(arregloPremios);
         stop();
     }else{
         if(!gameOver){
@@ -86,10 +86,10 @@ function stop() {
 }
 
 function validarPremio(){
-    
+
         arregloPremios.sort();
 
-        console.log(arregloPremios);
+        //console.log(arregloPremios);
 
         for(var i = 0; i<(arregloPremios.length)-1; i++){
             if(arregloPremios[i]==arregloPremios[i+1]){
@@ -97,7 +97,7 @@ function validarPremio(){
             }
         }
 
-        console.log(bandera);
+        //console.log(bandera);
         reclamarPremio();
         bandera = 0;
         arregloPremios=[];
@@ -112,4 +112,3 @@ function reclamarPremio(){
         }
     });
 }
-

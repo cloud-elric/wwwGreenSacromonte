@@ -17813,16 +17813,6 @@
 		"oAP": "\/web\/webAssets\/css\/site.css.map",
 		"oF": 0
 		},
-	"\/web\/webAssets\/css\/slot-machine.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/css\/slot-machine-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/web\/webAssets\/fonts\/ionicons\/ionicons.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -18025,6 +18015,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/web\/webAssets\/plugins\/slot-machine\/slot-machine-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/plugins\/slot-machine\/slot-machine-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/web\/webAssets\/plugins\/slot-machine\/slot-machine.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18154,6 +18153,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/web\/webAssets\/sass\/_slot-machine.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/web\/webAssets\/sass\/_slot-machine.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/web\/webAssets\/sass\/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -18173,10 +18185,10 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/css\/site.css",
-		"oF": 2,
+		"oAP": "\/web\/webAssets\/sass\/site.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
