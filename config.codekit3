@@ -131,22 +131,10 @@
 		"oAP": "\/models\/ContactForm.php",
 		"oF": 0
 		},
-	"\/models\/EntEventos.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/models\/EntEventos.php",
-		"oF": 0
-		},
 	"\/models\/EntUsuarios.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/models\/EntUsuarios.php",
-		"oF": 0
-		},
-	"\/models\/EntVenues.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/models\/EntVenues.php",
 		"oF": 0
 		},
 	"\/models\/LoginForm.php": {
@@ -209,364 +197,328 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c772c221aa.data": {
+	"\/runtime\/debug\/592dabdf0cbe9.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c772c221aa.data",
+		"oAP": "\/runtime\/debug\/592dabdf0cbe9.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c772e8ba1e.data": {
+	"\/runtime\/debug\/592dabebc1a35.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c772e8ba1e.data",
+		"oAP": "\/runtime\/debug\/592dabebc1a35.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c773f1ad40.data": {
+	"\/runtime\/debug\/592dabf65e8c6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c773f1ad40.data",
+		"oAP": "\/runtime\/debug\/592dabf65e8c6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c773fcbc4c.data": {
+	"\/runtime\/debug\/592dac0298627.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c773fcbc4c.data",
+		"oAP": "\/runtime\/debug\/592dac0298627.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c774c0be2e.data": {
+	"\/runtime\/debug\/592dac031f97c.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c774c0be2e.data",
+		"oAP": "\/runtime\/debug\/592dac031f97c.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c774d1b635.data": {
+	"\/runtime\/debug\/592dac0ed79e1.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c774d1b635.data",
+		"oAP": "\/runtime\/debug\/592dac0ed79e1.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c7c8b3f070.data": {
+	"\/runtime\/debug\/592dac42e53a6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c7c8b3f070.data",
+		"oAP": "\/runtime\/debug\/592dac42e53a6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c80046653c.data": {
+	"\/runtime\/debug\/592dac9174a62.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c80046653c.data",
+		"oAP": "\/runtime\/debug\/592dac9174a62.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c800b12d53.data": {
+	"\/runtime\/debug\/592dac91f23ec.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c800b12d53.data",
+		"oAP": "\/runtime\/debug\/592dac91f23ec.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c800b4c31c.data": {
+	"\/runtime\/debug\/592dac9ad653f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c800b4c31c.data",
+		"oAP": "\/runtime\/debug\/592dac9ad653f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c800ca1c1d.data": {
+	"\/runtime\/debug\/592dacc476a44.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c800ca1c1d.data",
+		"oAP": "\/runtime\/debug\/592dacc476a44.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c808c0f3b7.data": {
+	"\/runtime\/debug\/592dacfdd3bc7.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c808c0f3b7.data",
+		"oAP": "\/runtime\/debug\/592dacfdd3bc7.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c808cc7d97.data": {
+	"\/runtime\/debug\/592dacfe60a38.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c808cc7d97.data",
+		"oAP": "\/runtime\/debug\/592dacfe60a38.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8095342b0.data": {
+	"\/runtime\/debug\/592dad077c4bd.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8095342b0.data",
+		"oAP": "\/runtime\/debug\/592dad077c4bd.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8099d06af.data": {
+	"\/runtime\/debug\/592dad3fc350e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8099d06af.data",
+		"oAP": "\/runtime\/debug\/592dad3fc350e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c809b539af.data": {
+	"\/runtime\/debug\/592dad6ff25fb.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c809b539af.data",
+		"oAP": "\/runtime\/debug\/592dad6ff25fb.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c809ca9159.data": {
+	"\/runtime\/debug\/592dad70852e8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c809ca9159.data",
+		"oAP": "\/runtime\/debug\/592dad70852e8.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c80e0600c4.data": {
+	"\/runtime\/debug\/592dad7e2056f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c80e0600c4.data",
+		"oAP": "\/runtime\/debug\/592dad7e2056f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c80e93cb08.data": {
+	"\/runtime\/debug\/592dadad77e96.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c80e93cb08.data",
+		"oAP": "\/runtime\/debug\/592dadad77e96.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c80eac42ef.data": {
+	"\/runtime\/debug\/592dadaf39444.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c80eac42ef.data",
+		"oAP": "\/runtime\/debug\/592dadaf39444.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c810563402.data": {
+	"\/runtime\/debug\/592dadc53b19f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c810563402.data",
+		"oAP": "\/runtime\/debug\/592dadc53b19f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8106aa8fe.data": {
+	"\/runtime\/debug\/592dadc5b7f35.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8106aa8fe.data",
+		"oAP": "\/runtime\/debug\/592dadc5b7f35.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8108029fe.data": {
+	"\/runtime\/debug\/592dadcf1e1c8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8108029fe.data",
+		"oAP": "\/runtime\/debug\/592dadcf1e1c8.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c811360f3f.data": {
+	"\/runtime\/debug\/592dadd26ef11.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c811360f3f.data",
+		"oAP": "\/runtime\/debug\/592dadd26ef11.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c811421e56.data": {
+	"\/runtime\/debug\/592dae3a2622f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c811421e56.data",
+		"oAP": "\/runtime\/debug\/592dae3a2622f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8137ad888.data": {
+	"\/runtime\/debug\/592dae3ab22e0.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8137ad888.data",
+		"oAP": "\/runtime\/debug\/592dae3ab22e0.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8139baabf.data": {
+	"\/runtime\/debug\/592db9c88af15.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8139baabf.data",
+		"oAP": "\/runtime\/debug\/592db9c88af15.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c814a91708.data": {
+	"\/runtime\/debug\/592dbb64d1e8a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c814a91708.data",
+		"oAP": "\/runtime\/debug\/592dbb64d1e8a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c814bb59ea.data": {
+	"\/runtime\/debug\/592dbb65ab6ef.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c814bb59ea.data",
+		"oAP": "\/runtime\/debug\/592dbb65ab6ef.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c81636e772.data": {
+	"\/runtime\/debug\/592dbc18d01d9.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c81636e772.data",
+		"oAP": "\/runtime\/debug\/592dbc18d01d9.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8165b3857.data": {
+	"\/runtime\/debug\/592dbd3dd02e4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8165b3857.data",
+		"oAP": "\/runtime\/debug\/592dbd3dd02e4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c816719c5e.data": {
+	"\/runtime\/debug\/592dbe0b5fc19.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c816719c5e.data",
+		"oAP": "\/runtime\/debug\/592dbe0b5fc19.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c82e05d9ac.data": {
+	"\/runtime\/debug\/592dbe8b3d145.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c82e05d9ac.data",
+		"oAP": "\/runtime\/debug\/592dbe8b3d145.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c82e280193.data": {
+	"\/runtime\/debug\/592dbe8bc069b.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c82e280193.data",
+		"oAP": "\/runtime\/debug\/592dbe8bc069b.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c82e44d613.data": {
+	"\/runtime\/debug\/592dbe939ef72.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c82e44d613.data",
+		"oAP": "\/runtime\/debug\/592dbe939ef72.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c82f254d19.data": {
+	"\/runtime\/debug\/592dbea4e75d5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c82f254d19.data",
+		"oAP": "\/runtime\/debug\/592dbea4e75d5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c82f329850.data": {
+	"\/runtime\/debug\/592dbea56e3e2.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c82f329850.data",
+		"oAP": "\/runtime\/debug\/592dbea56e3e2.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8569bdc46.data": {
+	"\/runtime\/debug\/592dbebf575db.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8569bdc46.data",
+		"oAP": "\/runtime\/debug\/592dbebf575db.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c857358892.data": {
+	"\/runtime\/debug\/592dbec60a982.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c857358892.data",
+		"oAP": "\/runtime\/debug\/592dbec60a982.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85744168d.data": {
+	"\/runtime\/debug\/592dbece8d1d4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85744168d.data",
+		"oAP": "\/runtime\/debug\/592dbece8d1d4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85823e77c.data": {
+	"\/runtime\/debug\/592dbf707c462.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85823e77c.data",
+		"oAP": "\/runtime\/debug\/592dbf707c462.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85840b28f.data": {
+	"\/runtime\/debug\/592dc00d04326.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85840b28f.data",
+		"oAP": "\/runtime\/debug\/592dc00d04326.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8588bb615.data": {
+	"\/runtime\/debug\/592dc06f5f72d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8588bb615.data",
+		"oAP": "\/runtime\/debug\/592dc06f5f72d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c8589ca286.data": {
+	"\/runtime\/debug\/592dc0822f768.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c8589ca286.data",
+		"oAP": "\/runtime\/debug\/592dc0822f768.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c859a90044.data": {
+	"\/runtime\/debug\/592dc201792e6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c859a90044.data",
+		"oAP": "\/runtime\/debug\/592dc201792e6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c859bd10f0.data": {
+	"\/runtime\/debug\/592dc202b1027.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c859bd10f0.data",
+		"oAP": "\/runtime\/debug\/592dc202b1027.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c859e589eb.data": {
+	"\/runtime\/debug\/592dda29ed6e3.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c859e589eb.data",
+		"oAP": "\/runtime\/debug\/592dda29ed6e3.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c859f77956.data": {
+	"\/runtime\/debug\/592dda2b3cc96.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c859f77956.data",
+		"oAP": "\/runtime\/debug\/592dda2b3cc96.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85b247b99.data": {
+	"\/runtime\/debug\/592df08698038.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85b247b99.data",
+		"oAP": "\/runtime\/debug\/592df08698038.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85b3d0fa7.data": {
+	"\/runtime\/debug\/592df0b06bdd8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85b3d0fa7.data",
+		"oAP": "\/runtime\/debug\/592df0b06bdd8.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85b8ca726.data": {
+	"\/runtime\/debug\/592df0b0ef24b.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85b8ca726.data",
+		"oAP": "\/runtime\/debug\/592df0b0ef24b.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85ba25b3a.data": {
+	"\/runtime\/debug\/592df0b1e2ba3.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85ba25b3a.data",
+		"oAP": "\/runtime\/debug\/592df0b1e2ba3.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85c94c55a.data": {
+	"\/runtime\/debug\/592df0bad0e0c.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85c94c55a.data",
+		"oAP": "\/runtime\/debug\/592df0bad0e0c.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591c85ca0e765.data": {
+	"\/runtime\/debug\/592df0c64d13e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85ca0e765.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591c85cd0826c.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591c85cd0826c.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591ccae12090d.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591ccae12090d.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591ccb4d4ad14.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591ccb4d4ad14.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591ccb584b9d5.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591ccb584b9d5.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591ccb59688b5.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591ccb59688b5.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591ccba02b7af.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591ccba02b7af.data",
+		"oAP": "\/runtime\/debug\/592df0c64d13e.data",
 		"oF": 0
 		},
 	"\/runtime\/debug\/index.data": {
@@ -17714,6 +17666,12 @@
 		"oAP": "\/views\/site\/registro.php",
 		"oF": 0
 		},
+	"\/views\/site\/slotMachine.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/slotMachine.php",
+		"oF": 0
+		},
 	"\/web\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -17726,73 +17684,73 @@
 		"oAP": "\/web\/assets\/.gitignore",
 		"oF": 0
 		},
-	"\/web\/assets\/3e82f452\/yii.activeForm.js": {
+	"\/web\/assets\/3a4952c1\/yii.activeForm.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/3e82f452\/yii.activeForm-min.js",
+		"oAP": "\/web\/assets\/3a4952c1\/yii.activeForm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/3e82f452\/yii.captcha.js": {
+	"\/web\/assets\/3a4952c1\/yii.captcha.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/3e82f452\/yii.captcha-min.js",
+		"oAP": "\/web\/assets\/3a4952c1\/yii.captcha-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/3e82f452\/yii.gridView.js": {
+	"\/web\/assets\/3a4952c1\/yii.gridView.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/3e82f452\/yii.gridView-min.js",
+		"oAP": "\/web\/assets\/3a4952c1\/yii.gridView-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/3e82f452\/yii.js": {
+	"\/web\/assets\/3a4952c1\/yii.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/3e82f452\/yii-min.js",
+		"oAP": "\/web\/assets\/3a4952c1\/yii-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/3e82f452\/yii.validation.js": {
+	"\/web\/assets\/3a4952c1\/yii.validation.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/3e82f452\/yii.validation-min.js",
+		"oAP": "\/web\/assets\/3a4952c1\/yii.validation-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/ebc8f424\/jquery.js": {
+	"\/web\/assets\/b13428be\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/ebc8f424\/jquery-min.js",
+		"oAP": "\/web\/assets\/b13428be\/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/ebc8f424\/jquery.min.js": {
+	"\/web\/assets\/b13428be\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/ebc8f424\/jquery.min-min.js",
+		"oAP": "\/web\/assets\/b13428be\/jquery.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/ebc8f424\/jquery.min.map": {
+	"\/web\/assets\/b13428be\/jquery.min.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/web\/assets\/ebc8f424\/jquery.min.map",
+		"oAP": "\/web\/assets\/b13428be\/jquery.min.map",
 		"oF": 0
 		},
 	"\/web\/favicon.ico": {
@@ -17829,6 +17787,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/web\/webAssets\/css\/modal.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/css\/modal-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/web\/webAssets\/css\/site.css": {
 		"aP": 1,
 		"bl": 0,
@@ -17844,6 +17812,16 @@
 		"oA": 2,
 		"oAP": "\/web\/webAssets\/css\/site.css.map",
 		"oF": 0
+		},
+	"\/web\/webAssets\/css\/slot-machine.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/css\/slot-machine-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/web\/webAssets\/fonts\/ionicons\/ionicons.eot": {
 		"ft": 8192,
@@ -17917,6 +17895,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/web\/webAssets\/images\/slot-machine\/slot1.png": {
+		"ft": 32768,
+		"iS": 29752,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/slot-machine\/slot2.png": {
+		"ft": 32768,
+		"iS": 26910,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/slot-machine\/slot3.png": {
+		"ft": 32768,
+		"iS": 25793,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/slot-machine\/slot4.png": {
+		"ft": 32768,
+		"iS": 29475,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/slot-machine\/slot5.png": {
+		"ft": 32768,
+		"iS": 21049,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/slot-machine\/slot6.png": {
+		"ft": 32768,
+		"iS": 25146,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/web\/webAssets\/js\/jquery-3.1.1.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -17940,6 +17984,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/js\/site-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/webAssets\/js\/slot-machine.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/js\/slot-machine-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -17968,6 +18021,25 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/plugins\/ladda-bootstrap\/dist\/spin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/webAssets\/plugins\/slot-machine\/slot-machine.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/plugins\/slot-machine\/slot-machine-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/webAssets\/plugins\/slot-machine\/slot-machine.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/plugins\/slot-machine\/slot-machine-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -18108,10 +18180,10 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/wwwGreenAuditorio.zip": {
+	"\/wwwGreenSacromonte.zip": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wwwGreenAuditorio.zip",
+		"oAP": "\/wwwGreenSacromonte.zip",
 		"oF": 0
 		},
 	"\/yii": {
@@ -18133,7 +18205,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 516643881,
-	"displayValue": "wwwGreenAuditorio",
+	"displayValue": "wwwGreenSacromonte",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-hart"
 	},
