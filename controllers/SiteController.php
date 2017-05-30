@@ -79,7 +79,7 @@ class SiteController extends Controller {
 		if ($usuario->load ( Yii::$app->request->post () )) {
 
 		
-			$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo) ;
+			$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
 			if ($usuario->save ()) {
 				return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
 			}
