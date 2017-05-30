@@ -12,7 +12,7 @@ use yii\web\View;
 
 <input type="hidden" value="<?=$token?>" id="js-token-usuario" />
 
-<div>
+<div class="container">
 					<div id="casino1" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
@@ -30,7 +30,7 @@ use yii\web\View;
 						<div class="slot slot4"></div>
 						<div class="slot slot5"></div>
 						<div class="slot slot6"></div>
-						
+
 					</div>
 
 					<div id="casino3" class="slotMachine">
@@ -40,7 +40,7 @@ use yii\web\View;
 						<div class="slot slot4"></div>
 						<div class="slot slot5"></div>
 						<div class="slot slot6"></div>
-						
+
 					</div>
 
 					<div id="casino4" class="slotMachine">
@@ -50,12 +50,12 @@ use yii\web\View;
 						<div class="slot slot4"></div>
 						<div class="slot slot5"></div>
 						<div class="slot slot6"></div>
-						
+
 					</div>
 
 				</div>
 
-<div class="modal"  style="<?=$yaParticipo?'display:block':''?>">
+<div class="modal modal-bkgd"  style="<?=$yaParticipo?'display:block':''?>">
 	<div class="modal-body"  id="js-contenedor-modal">
 		<?php
 		foreach($premios as $premio){
@@ -70,31 +70,31 @@ use yii\web\View;
 		'depends' => [
 				\app\assets\AppAsset::className ()
 		],
-		  
-] ); 
+
+] );
 
  $this->registerCssFile ( '@web/webAssets/css/slot-machine.css', [
 		'depends' => [
 				\app\assets\AppAsset::className ()
 		],
-		  
-] ); 
+
+] );
 
 $this->registerCssFile ( '@web/webAssets/css/modal.css', [
 		'depends' => [
 				\app\assets\AppAsset::className ()
 		],
-		  
-] ); 
+
+] );
 
  $this->registerJsFile ( '@web/webAssets/plugins/slot-machine/slot-machine.js', [
 		'depends' => [
 				\app\assets\AppAsset::className ()
 		]
-] );  
+] );
 
 $this->registerJsFile ( '@web/webAssets/js/slot-machine.js', [
 		'depends' => [
 				\app\assets\AppAsset::className ()
 		]
-] );           	
+] );

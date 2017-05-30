@@ -12,7 +12,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var pluginName = 'slotMachine',
         defaults = {
         active: 0,
-        delay: 200,
+        delay: 100,
         auto: false,
         spins: 5,
         randomize: null,

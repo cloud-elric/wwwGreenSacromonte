@@ -346,6 +346,27 @@ hr {
       overflow: hidden;
       padding: 0 10px; } }
 
+.modal-bkgd {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.69);
+  display: none;
+  overflow: auto; }
+
+.modal-body {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative; }
+
 /*!
 	-----------------------------------------------------------------------------
 
@@ -577,5 +598,47 @@ body {
   @media screen and (max-width: 768px) {
     .logo-evento {
       width: 90%; } }
+
+/*!
+	-----------------------------------------------------------------------------
+
+	4.1 - Estilos propios de la pantalla de SlotMachine
+			# Extra
+
+	-----------------------------------------------------------------------------
+	*/
+.slotMachine {
+  width: 20%;
+  border: 5px solid #D98C34;
+  border-radius: 10px;
+  height: 200px;
+  padding: 0px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  margin: 10px; }
+
+.slotMachine .slot {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.slot1 {
+  background-image: url("../images/slot-machine/slot1.png"); }
+
+.slot2 {
+  background-image: url("../images/slot-machine/slot2.png"); }
+
+.slot3 {
+  background-image: url("../images/slot-machine/slot3.png"); }
+
+.slot4 {
+  background-image: url("../images/slot-machine/slot4.png"); }
+
+.slot5 {
+  background-image: url("../images/slot-machine/slot5.png"); }
+
+.slot6 {
+  background-image: url("../images/slot-machine/slot6.png"); }
 
 /*# sourceMappingURL=site.css.map */
