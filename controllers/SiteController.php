@@ -93,17 +93,107 @@ class SiteController extends Controller {
 	}
 
 
-	public function actionSlotMachine($token=''){
-
+	public function actionReclamarPremio($token='', $bandera=0){
 		$usuario = EntUsuarios::find()->where(['txt_token'=>$token])->one();
+		$idPremio = 3;
+		
+		if($usuario){
+
+			if($bandera==3){
+				$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1, 'id_premio'=>1])
+					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
+					->one();
+
+				if(empty($premio)){
+				
+					$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1,  'id_premio'=>2])
+					->andWhere(['<', 'num_premios_dados',new Expression('num_limite_dia')])
+					->one();
+
+					if(empty($premio)){
+						$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1])
+					->andWhere([ 'id_premio'=>3])
+					->one();
+					}
+				}	
+
+				$idPremio = $premio->id_premio;	
+
+			}else if($bandera==2 || $bandera==1){
+				$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1,  'id_premio'=>2])
+					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
+					->one();
+
+				if(empty($premio)){
+					$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1])
+					->andWhere([ 'id_premio'=>3])
+					->one();
+				}
+
+				$idPremio = $premio->id_premio;			
+			}else{
+				$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1])
+					->andWhere([ 'id_premio'=>3])
+					->one();
+			}	
+
+			$premioGanado = new RelUsuarioPremio();
+			$premioGanado->id_usuario = $usuario->id_usuario;
+			$premioGanado->id_premio = $idPremio;
+			$premioGanado->txt_token = $this->getToken('usu_');
+			$premioGanado->txt_token_corto = substr ( md5 ( microtime () ), 1, 6 );
+			$premioGanado->save();
+
+
+			$link = Yii::$app->urlManager->createAbsoluteUrl ( [ 
+								'site/slot-machine?token=' . $premioGanado->txt_token_corto
+			] );
+
+			$urlCorta = $this->getShortUrl($link);
+
+		$message = urlencode ( "Felicidades reclama tu premio con el siguiente codigo: " . $premioGanado->txt_token_corto . " " . $urlCorta );
+
+		$this->sendSMS($usuario->txt_telefono_celular, $message);
+
+			return $this->renderAjax('premio',['nombrePremio'=>$premio->txt_nombre]);
+		
+		}
+
+
+	}
+
+
+	public function actionSlotMachine($token=''){
+		$tokenCorto = RelUsuarioPremio::find()->where(['txt_token_corto'=>$token])->one();
+		if($tokenCorto){
+			$usuario = $tokenCorto->idUsuario;
+		}else{
+			$usuario = EntUsuarios::find()->where(['txt_token'=>$token])->one();
+		}
+
+		if(empty($usuario)){
+			return $this->goHome();
+		}
 
 		$premiosDisponibles = ViewPremiosRestantes::find()->where(['num_limite_dia'=>0])->orWhere(['>', 'num_limite_dia', 'num_premios_dados'])->all();
+		$yaParticipo = false;
+		$premios = $usuario->relUsuarioPremios;
+		if($premios){
+			$yaParticipo = true;
+		}
+
 
 		if(empty($usuario)){
 			 $this->goHome();
 		}
 
-		return $this->render('slotMachine', ['premios'=>$premiosDisponibles]);
+		return $this->render('slotMachine', ['premios'=>$premios, 'token'=>$token, 'yaParticipo'=>$yaParticipo]);
 	}
 
 	public function actionVerPremio($token=""){
@@ -145,7 +235,7 @@ class SiteController extends Controller {
 	/**
 	 * Descarga un csv con la informacion necesaria
 	 */
-	public function actionDescargarRegistros3289ldksd339ffd3jl(){
+	public function actionDescargar865sacromonte290(){
 		$usuarios = ViewUsuarioDatos::find()->all();
 
 		$arrayCsv = [ ];
@@ -242,6 +332,42 @@ class SiteController extends Controller {
 		// Inicializamos la fecha y hora actual
 		$fecha = date ( 'Y-m-d H:i:s', time () );
 		return $fecha;
+	}
+
+	private function sendSMS($tel='', $message=''){
+		
+		$url = 'http://sms-tecnomovil.com/SvtSendSms?username=PIXERED&password=Pakabululu01&message=' . $message . '&numbers=' . $tel;
+		$sms = file_get_contents ( $url );				
+
+	}
+
+public function actionTestGetUrl(){
+	echo $this->getShortUrl('http://localhost/wwwGreenSacromonte/web/site/slot-machine?token=usr_bf818b2e789154f2a9be253022c655db');
+}
+
+	private function getShortUrl($url) {
+		$urlAutenticate = 'http://dgom.mobi';
+		
+		$ch = curl_init ();
+		
+		curl_setopt ( $ch, CURLOPT_URL, $urlAutenticate );
+		curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'POST' );
+		curl_setopt ( $ch, CURLOPT_POSTFIELDS, 'user=userGreenSaco&pass=passGreenSacro&app=GreenSacro&url=' . $url );
+		curl_setopt ( $ch, CURLOPT_POSTREDIR, 3 );
+		curl_setopt ( $ch, CURLOPT_FOLLOWLOCATION, true );
+		
+		// in real life you should use something like:
+		// curl_setopt($ch, CURLOPT_POSTFIELDS,
+		// http_build_query(array('postvar1' => 'value1')));
+		
+		// receive server response ...
+		curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
+		
+		$server_output = curl_exec ( $ch );
+		
+		curl_close ( $ch );
+		
+		return $server_output;
 	}
 
 }

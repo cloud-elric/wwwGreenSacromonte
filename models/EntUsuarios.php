@@ -59,4 +59,20 @@ class EntUsuarios extends \yii\db\ActiveRecord
         ];
     }
 
+     /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getRelUsuarioPremios() 
+   { 
+       return $this->hasMany(RelUsuarioPremio::className(), ['id_usuario' => 'id_usuario']); 
+   } 
+ 
+   /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getIdPremios() 
+   { 
+       return $this->hasMany(CatPremios::className(), ['id_premio' => 'id_premio'])->viaTable('rel_usuario_premio', ['id_usuario' => 'id_usuario']); 
+   } 
+
 }

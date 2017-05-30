@@ -41,7 +41,7 @@ $this->title="Registro";
 				echo $form->field ( $usuario, 'txt_telefono_celular' )->textInput ( [
 						'type'=>'number',
 						'maxlength' => 10,
-						'placeholder'=>'Teléfono'
+						'placeholder'=>'Teléfono celular'
 				] )->label(false);
 				
 				?>
