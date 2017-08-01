@@ -1,21 +1,21 @@
 var machine4 = $("#casino1").slotMachine({
     active: 0,
-    delay: 100
+    delay: 500
 });
 
 var machine5 = $("#casino2").slotMachine({
     active: 1,
-    delay: 100
+    delay: 500
 });
 
 var machine6 = $("#casino3").slotMachine({
     active: 2,
-    delay: 100
+    delay: 500
 });
 
 var machine7 = $("#casino4").slotMachine({
     active: 3,
-    delay: 100
+    delay: 500
 });
 
 var started = 0;

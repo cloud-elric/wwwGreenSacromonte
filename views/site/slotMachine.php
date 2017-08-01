@@ -73,12 +73,7 @@ use yii\web\View;
 
 ] );
 
- $this->registerCssFile ( '@web/webAssets/css/slot-machine.css', [
-		'depends' => [
-				\app\assets\AppAsset::className ()
-		],
 
-] );
 
 $this->registerCssFile ( '@web/webAssets/css/modal.css', [
 		'depends' => [

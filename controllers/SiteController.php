@@ -157,7 +157,7 @@ class SiteController extends Controller {
 
 			$urlCorta = $this->getShortUrl($link);
 
-		$message = urlencode ( "Felicidades reclama tu premio con el siguiente codigo: " . $premioGanado->txt_token_corto . " " . $urlCorta );
+		$message = urlencode ( "Felicidades ya eres ganador - consulta tu premio: " . $urlCorta );
 
 		$this->sendSMS($usuario->txt_telefono_celular, $message);
 
