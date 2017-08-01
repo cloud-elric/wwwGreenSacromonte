@@ -73,12 +73,16 @@ class SiteController extends Controller {
 		return $this->render ( 'inicio' );
 	}
 
+	public function actionInstrucciones(){
+		return $this->render("instrucciones");
+	}
+
 	public function actionRegistro(){
 		$usuario = new EntUsuarios ();
 		
 		if ($usuario->load ( Yii::$app->request->post () )) {
 
-		
+			$usuario->id_restaurante = 1;
 			$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
 			if ($usuario->save ()) {
 				return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
@@ -103,43 +107,45 @@ class SiteController extends Controller {
 				$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1, 'id_premio'=>1])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
+					->andWhere(['id_restaurante'=>1])
 					->one();
 
-				if(empty($premio)){
 				
-					$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1,  'id_premio'=>2])
-					->andWhere(['<', 'num_premios_dados',new Expression('num_limite_dia')])
-					->one();
 
 					if(empty($premio)){
 						$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1])
-					->andWhere([ 'id_premio'=>3])
+					->andWhere([ 'id_premio'=>7])
+					->andWhere(['id_restaurante'=>1])
 					->one();
-					}
+					
 				}	
 
 				$idPremio = $premio->id_premio;	
 
-			}else if($bandera==2 || $bandera==1){
+			}else if($bandera==2){
+				$premio	= ViewPremiosRestantes::find()
+					->where(['b_habilitado'=>1,  'id_premio'=>7])
+					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
+					->andWhere(['id_restaurante'=>1])
+					->one();
+
+
+				$idPremio = $premio->id_premio;			
+			}else if($bandera==2){
 				$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1,  'id_premio'=>2])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
+					->andWhere(['id_restaurante'=>1])
 					->one();
 
-				if(empty($premio)){
-					$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1])
-					->andWhere([ 'id_premio'=>3])
-					->one();
-				}
 
 				$idPremio = $premio->id_premio;			
 			}else{
 				$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1])
 					->andWhere([ 'id_premio'=>3])
+					->andWhere(['id_restaurante'=>1])
 					->one();
 			}	
 
@@ -159,7 +165,7 @@ class SiteController extends Controller {
 
 		$message = urlencode ( "Felicidades ya eres ganador - consulta tu premio: " . $urlCorta );
 
-		$this->sendSMS($usuario->txt_telefono_celular, $message);
+		//$this->sendSMS($usuario->txt_telefono_celular, $message);
 
 			return $this->renderAjax('premio',['nombrePremio'=>$premio->txt_nombre]);
 		

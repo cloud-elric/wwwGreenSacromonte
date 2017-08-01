@@ -16,7 +16,7 @@ $this->title = 'Fiesta americana';
 		<!-- Seleccion de Tarjeta -->
 		<div class="selecciona-tarjeta-wrapper">
 
-            <?= Html::a('<span class="ladda-label">Comenzar</span>', ['site/registro'], ['class'=>'btn btn-primary js-next-step ladda-button', 'data-style'=>'zoom-in']);?>
+            <?= Html::a('<span class="ladda-label">Comenzar</span>', ['site/instrucciones'], ['class'=>'btn btn-primary js-next-step ladda-button', 'data-style'=>'zoom-in']);?>
 
 		</div>
 
