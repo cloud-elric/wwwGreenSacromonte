@@ -6,7 +6,7 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.69);
     display:none;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .modal-body{

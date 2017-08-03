@@ -1,0 +1,22 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.69);
+  display: none;
+  overflow: hidden; }
+
+.modal-body {
+  width: 80%;
+  background-color: white;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  position: relative; }
+
+.modal .logo {
+  z-index: 4; }

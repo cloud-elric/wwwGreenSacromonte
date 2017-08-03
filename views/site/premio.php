@@ -3,7 +3,7 @@ use yii\helpers\Url;
 
 $this->title="Gracias por participar";
 ?>
-<div class="container container-ribbon">
+<div class="container container-premio">
 
 <!-- Premio contenedor -->
 	<div class="js-premio-contenedor" style="text-align:center">
