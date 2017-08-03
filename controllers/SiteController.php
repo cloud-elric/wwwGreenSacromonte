@@ -250,6 +250,7 @@ class SiteController extends Controller {
 		foreach ( $usuarios as $data ) {
 
 			$arrayCsv [$i] ['nombreCompleto'] = $data->txt_nombre_completo;
+			$arrayCsv [$i] ['nombreRestaurante'] = $data->txt_nombre_restaurante;
 			$arrayCsv [$i] ['telefonoCelular'] = $data->txt_telefono_celular;
 			$arrayCsv [$i] ['codigoPostal'] = $data->txt_cp;
 			$arrayCsv [$i] ['numEdad'] = $data->num_edad;
@@ -280,6 +281,7 @@ class SiteController extends Controller {
 		$df = fopen ( "php://output", "w" );
 		fputcsv ( $df, [
 				'Nombre completo',
+				'Nombre restaurante',				
 				'Telefono',
 				'C.P.',
 				'Edad',
