@@ -13,6 +13,9 @@ use yii\web\View;
 <input type="hidden" value="<?=$token?>" id="js-token-usuario" />
 
 <div class="container">
+  <div class="ruleta-bkgd">
+
+
 					<div id="casino1" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
@@ -24,7 +27,7 @@ use yii\web\View;
 					</div>
 
 					<div id="casino2" class="slotMachine">
-					<div class="slot slot1"></div>
+					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
 						<div class="slot slot3"></div>
 						<div class="slot slot4"></div>
@@ -34,7 +37,7 @@ use yii\web\View;
 					</div>
 
 					<div id="casino3" class="slotMachine">
-					<div class="slot slot1"></div>
+					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
 						<div class="slot slot3"></div>
 						<div class="slot slot4"></div>
@@ -54,6 +57,7 @@ use yii\web\View;
 					</div>
 
 				</div>
+<!-- </div> -->
 
 <div class="modal modal-bkgd"  style="<?=$yaParticipo?'display:block':''?>">
 	<div class="modal-body"  id="js-contenedor-modal">
