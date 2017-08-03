@@ -83,7 +83,7 @@ class SiteController extends Controller {
 		
 		if ($usuario->load ( Yii::$app->request->post () )) {
 
-			$usuario->id_restaurante = ConstantesWeb::RESTAURANTES['ID_RESTAURANTE'];
+			$usuario->id_restaurante = ConstantesWeb::ID_RESTAURANTE;
 			$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
 			if ($usuario->save ()) {
 				return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
@@ -106,9 +106,9 @@ class SiteController extends Controller {
 
 			if($bandera==3){
 				$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1, 'id_premio' => ConstantesWeb::RESTAURANTES['PREMIO_PRINCIPAL']])
+					->where(['b_habilitado'=>1, 'id_premio' => ConstantesWeb::PREMIO_PRINCIPAL])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
-					->andWhere(['id_restaurante' => ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
+					->andWhere(['id_restaurante' => ConstantesWeb::ID_RESTAURANTE])
 					->one();
 
 				
@@ -116,8 +116,8 @@ class SiteController extends Controller {
 					if(empty($premio)){
 						$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1])
-					->andWhere([ 'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_40']])
-					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
+					->andWhere([ 'id_premio'=>ConstantesWeb::PREMIO_40])
+					->andWhere(['id_restaurante'=>ConstantesWeb::ID_RESTAURANTE])
 					->one();
 					
 				}	
@@ -126,18 +126,18 @@ class SiteController extends Controller {
 
 			}else if($bandera==2){
 				$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1,  'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_40']])
+					->where(['b_habilitado'=>1,  'id_premio'=>ConstantesWeb::PREMIO_40])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
-					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
+					->andWhere(['id_restaurante'=>ConstantesWeb::ID_RESTAURANTE])
 					->one();
 
 
 				$idPremio = $premio->id_premio;			
 			}else if($bandera==1){
 				$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1,  'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_CERTIFICADO']])
+					->where(['b_habilitado'=>1,  'id_premio'=>ConstantesWeb::PREMIO_CERTIFICADO])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
-					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
+					->andWhere(['id_restaurante'=>ConstantesWeb::ID_RESTAURANTE])
 					->one();
 
 
@@ -145,8 +145,8 @@ class SiteController extends Controller {
 			}else{
 				$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1])
-					->andWhere([ 'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_ESTUVISTE_CERCA']])
-					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
+					->andWhere([ 'id_premio'=>ConstantesWeb::PREMIO_ESTUVISTE_CERCA])
+					->andWhere(['id_restaurante'=>ConstantesWeb::ID_RESTAURANTE])
 					->one();
 			}	
 
