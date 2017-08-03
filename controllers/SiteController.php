@@ -12,6 +12,7 @@ use yii\db\Expression;
 use app\models\ViewPremiosRestantes;
 use app\models\RelUsuarioPremio;
 use app\models\ViewUsuarioDatos;
+use app\models\ConstantesWeb;
 
 class SiteController extends Controller {
 	/**
@@ -82,7 +83,7 @@ class SiteController extends Controller {
 		
 		if ($usuario->load ( Yii::$app->request->post () )) {
 
-			$usuario->id_restaurante = 1;
+			$usuario->id_restaurante = ConstantesWeb::ENTRE_FUEGO['ID_RESTAURANTE'];
 			$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
 			if ($usuario->save ()) {
 				return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
@@ -105,9 +106,9 @@ class SiteController extends Controller {
 
 			if($bandera==3){
 				$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1, 'id_premio'=>1])
+					->where(['b_habilitado'=>1, 'id_premio' => ConstantesWeb::RESTAURANTES['PREMIO_PRINCIPAL']])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
-					->andWhere(['id_restaurante'=>1])
+					->andWhere(['id_restaurante' => ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
 					->one();
 
 				
@@ -115,8 +116,8 @@ class SiteController extends Controller {
 					if(empty($premio)){
 						$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1])
-					->andWhere([ 'id_premio'=>7])
-					->andWhere(['id_restaurante'=>1])
+					->andWhere([ 'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_40']])
+					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
 					->one();
 					
 				}	
@@ -125,18 +126,18 @@ class SiteController extends Controller {
 
 			}else if($bandera==2){
 				$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1,  'id_premio'=>7])
+					->where(['b_habilitado'=>1,  'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_40']])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
-					->andWhere(['id_restaurante'=>1])
+					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
 					->one();
 
 
 				$idPremio = $premio->id_premio;			
-			}else if($bandera==2){
+			}else if($bandera==1){
 				$premio	= ViewPremiosRestantes::find()
-					->where(['b_habilitado'=>1,  'id_premio'=>2])
+					->where(['b_habilitado'=>1,  'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_CERTIFICADO']])
 					->andWhere(['<', 'num_premios_dados', new Expression('num_limite_dia')])
-					->andWhere(['id_restaurante'=>1])
+					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
 					->one();
 
 
@@ -144,8 +145,8 @@ class SiteController extends Controller {
 			}else{
 				$premio	= ViewPremiosRestantes::find()
 					->where(['b_habilitado'=>1])
-					->andWhere([ 'id_premio'=>3])
-					->andWhere(['id_restaurante'=>1])
+					->andWhere([ 'id_premio'=>ConstantesWeb::RESTAURANTES['PREMIO_ESTUVISTE_CERCA']])
+					->andWhere(['id_restaurante'=>ConstantesWeb::RESTAURANTES['ID_RESTAURANTE']])
 					->one();
 			}	
 
@@ -250,6 +251,7 @@ class SiteController extends Controller {
 		foreach ( $usuarios as $data ) {
 
 			$arrayCsv [$i] ['nombreCompleto'] = $data->txt_nombre_completo;
+			$arrayCsv [$i] ['nombreRestaurante'] = $data->txt_nombre_restaurante;
 			$arrayCsv [$i] ['telefonoCelular'] = $data->txt_telefono_celular;
 			$arrayCsv [$i] ['codigoPostal'] = $data->txt_cp;
 			$arrayCsv [$i] ['numEdad'] = $data->num_edad;
@@ -280,6 +282,7 @@ class SiteController extends Controller {
 		$df = fopen ( "php://output", "w" );
 		fputcsv ( $df, [
 				'Nombre completo',
+				'Nombre restaurante',				
 				'Telefono',
 				'C.P.',
 				'Edad',
