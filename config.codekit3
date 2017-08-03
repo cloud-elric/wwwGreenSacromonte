@@ -89,6 +89,12 @@
 		"oAP": "\/config\/web.php",
 		"oF": 0
 		},
+	"\/controllers\/SiteController.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/controllers\/SiteController.php",
+		"oF": 0
+		},
 	"\/LICENSE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -513,6 +519,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/runtime\/debug\/598349e45eeb5.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/598373175b81e.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/598373175b81e.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983731bd5380.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983731bd5380.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983731e7a2d3.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983731e7a2d3.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983732ec77a1.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983732ec77a1.data",
 		"oF": 0
 		},
 	"\/runtime\/debug\/index.data": {
