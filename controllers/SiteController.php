@@ -83,7 +83,7 @@ class SiteController extends Controller {
 		
 		if ($usuario->load ( Yii::$app->request->post () )) {
 
-			$usuario->id_restaurante = ConstantesWeb::ENTRE_FUEGO['ID_RESTAURANTE'];
+			$usuario->id_restaurante = ConstantesWeb::RESTAURANTES['ID_RESTAURANTE'];
 			$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
 			if ($usuario->save ()) {
 				return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
