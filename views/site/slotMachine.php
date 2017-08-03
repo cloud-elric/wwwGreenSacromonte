@@ -19,10 +19,7 @@ use yii\web\View;
 					<div id="casino1" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
-						<div class="slot slot3"></div>
-						<div class="slot slot4"></div>
-						<div class="slot slot5"></div>
-						<div class="slot slot6"></div>
+						
 
 					</div>
 
@@ -30,29 +27,21 @@ use yii\web\View;
 					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
 						<div class="slot slot3"></div>
-						<div class="slot slot4"></div>
-						<div class="slot slot5"></div>
-						<div class="slot slot6"></div>
+						
 
 					</div>
 
 					<div id="casino3" class="slotMachine">
 					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
-						<div class="slot slot3"></div>
-						<div class="slot slot4"></div>
-						<div class="slot slot5"></div>
-						<div class="slot slot6"></div>
+						
 
 					</div>
 
 					<div id="casino4" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
-						<div class="slot slot3"></div>
-						<div class="slot slot4"></div>
-						<div class="slot slot5"></div>
-						<div class="slot slot6"></div>
+
 
 					</div>
 
