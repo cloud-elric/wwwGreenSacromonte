@@ -1,0 +1,45 @@
+<?php
+
+namespace app\models;
+
+class ConstantesWeb {
+	// Tipos de post
+	const RESTAURANTES = [
+		'ID_RESTAURANTE' => 1,
+		'PREMIO_PRINCIPAL' => 1,
+		'PREMIO_CERTIFICADO' => 2,
+		'PREMIO_ESTUVISTE_CERCA' => 3,
+		'PREMIO_40' => 7
+	];
+
+	/*const ENTRE_FUEGO = [
+		'ID_RESTAURANTE' => 1,
+		'PREMIO_PRINCIPAL' => 1,
+		'PREMIO_CERTIFICADO' => 2,
+		'PREMIO_ESTUVISTE_CERCA' => 3,
+		'PREMIO_40' => 7
+	];
+	const TERCER_RONDA = [
+		'ID_RESTAURANTE' => 2,
+		'PREMIO_PRINCIPAL' => 8,
+		'PREMIO_CERTIFICADO' => 9,
+		'PREMIO_ESTUVISTE_CERCA' => 10,
+		'PREMIO_40' => 11
+	];
+	const LA_TEXTILERA = [
+		'ID_RESTAURANTE' => 3,
+		'PREMIO_PRINCIPAL' => 12,
+		'PREMIO_CERTIFICADO' => 13,
+		'PREMIO_ESTUVISTE_CERCA' => 14,
+		'PREMIO_40' => 15
+	];
+	const SONORAS = [
+		'ID_RESTAURANTE' => 4,
+		'PREMIO_PRINCIPAL' => 16,
+		'PREMIO_CERTIFICADO' => 17,
+		'PREMIO_ESTUVISTE_CERCA' => 18,
+		'PREMIO_40' => 19
+	];*/
+	
+}
+
