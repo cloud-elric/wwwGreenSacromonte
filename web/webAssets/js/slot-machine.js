@@ -26,7 +26,7 @@ var bandera = 0;
 
 var tokenUsuario = null;
 
-
+start();
 
 
 $(document).click(function () {
