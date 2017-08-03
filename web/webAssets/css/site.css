@@ -472,6 +472,7 @@ body {
   .container .ruleta-bkgd {
     display: block;
     width: 80%;
+    max-width: 797px;
     height: 200px;
     background-image: url("../images/ruleta-bkgd.png");
     background-size: cover;
@@ -627,8 +628,8 @@ body {
   left: -50px; }
 
 .logo-fa {
-  bottom: 100px;
-  right: 100px; }
+  bottom: 50px;
+  right: 50px; }
 
 /*!
 	-----------------------------------------------------------------------------
@@ -639,23 +640,23 @@ body {
 	-----------------------------------------------------------------------------
 	*/
 .slotMachine {
-  width: 23.1%;
+  width: 198px;
   height: 200px;
   padding: 0px;
   overflow: hidden;
   display: inline-block;
   text-align: center;
-  margin: 0 10px; }
+  margin: 0 0px; }
   @media (min-width: 1025px) {
     .slotMachine {
-      width: 23%;
-      margin: 0 9px; } }
+      width: 196px;
+      margin: 0 0px; } }
   @media (min-width: 992px) and (max-width: 1024px) {
     .slotMachine {
-      width: 22%; } }
+      width: 24.3%; } }
   @media screen and (max-width: 768px) {
     .slotMachine {
-      width: 21.2%; } }
+      width: 24.3%; } }
 
 .slotMachine .slot {
   height: 200px;

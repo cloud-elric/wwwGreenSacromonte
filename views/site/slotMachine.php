@@ -12,14 +12,14 @@ use yii\web\View;
 
 <input type="hidden" value="<?=$token?>" id="js-token-usuario" />
 
-<div class="container">
+<div class="container container-home">
   <div class="ruleta-bkgd">
 
 
 					<div id="casino1" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
-						
+
 
 					</div>
 
@@ -27,14 +27,14 @@ use yii\web\View;
 					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
 						<div class="slot slot3"></div>
-						
+
 
 					</div>
 
 					<div id="casino3" class="slotMachine">
 					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
-						
+
 
 					</div>
 
