@@ -4,6 +4,7 @@ namespace app\models;
 
 class ConstantesWeb {
 	// Tipos de post
+/*
 	const RESTAURANTES = [
 		'ID_RESTAURANTE' => 1,
 		'PREMIO_PRINCIPAL' => 1,
@@ -11,6 +12,13 @@ class ConstantesWeb {
 		'PREMIO_ESTUVISTE_CERCA' => 3,
 		'PREMIO_40' => 7
 	];
+*/
+	
+	const ID_RESTAURANTE = 3;
+	const PREMIO_PRINCIPAL = 12;
+	const PREMIO_CERTIFICADO = 13;
+	const PREMIO_ESTUVISTE_CERCA = 14;
+	const PREMIO_40 = 15;
 
 	/*const ENTRE_FUEGO = [
 		'ID_RESTAURANTE' => 1,
