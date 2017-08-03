@@ -7,7 +7,7 @@
 		"uuidString": "4E916C4E-177A-4534-9574-8B9079A9A222"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -125,6 +125,12 @@
 		"oAP": "\/models\/CatPremios.php",
 		"oF": 0
 		},
+	"\/models\/ConstantesWeb.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/ConstantesWeb.php",
+		"oF": 0
+		},
 	"\/models\/ContactForm.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -197,328 +203,316 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dabdf0cbe9.data": {
+	"\/runtime\/debug\/5983731bd5380.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dabdf0cbe9.data",
+		"oAP": "\/runtime\/debug\/5983731bd5380.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dabebc1a35.data": {
+	"\/runtime\/debug\/5983731e7a2d3.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dabebc1a35.data",
+		"oAP": "\/runtime\/debug\/5983731e7a2d3.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dabf65e8c6.data": {
+	"\/runtime\/debug\/5983732ec77a1.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dabf65e8c6.data",
+		"oAP": "\/runtime\/debug\/5983732ec77a1.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac0298627.data": {
+	"\/runtime\/debug\/598373b958b94.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac0298627.data",
+		"oAP": "\/runtime\/debug\/598373b958b94.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac031f97c.data": {
+	"\/runtime\/debug\/598373d81606d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac031f97c.data",
+		"oAP": "\/runtime\/debug\/598373d81606d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac0ed79e1.data": {
+	"\/runtime\/debug\/59837404e099a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac0ed79e1.data",
+		"oAP": "\/runtime\/debug\/59837404e099a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac42e53a6.data": {
+	"\/runtime\/debug\/5983742b11bc6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac42e53a6.data",
+		"oAP": "\/runtime\/debug\/5983742b11bc6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac9174a62.data": {
+	"\/runtime\/debug\/5983742fc9030.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac9174a62.data",
+		"oAP": "\/runtime\/debug\/5983742fc9030.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac91f23ec.data": {
+	"\/runtime\/debug\/5983755157dbd.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac91f23ec.data",
+		"oAP": "\/runtime\/debug\/5983755157dbd.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dac9ad653f.data": {
+	"\/runtime\/debug\/59837552bbf6a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dac9ad653f.data",
+		"oAP": "\/runtime\/debug\/59837552bbf6a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dacc476a44.data": {
+	"\/runtime\/debug\/59837561b17a4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dacc476a44.data",
+		"oAP": "\/runtime\/debug\/59837561b17a4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dacfdd3bc7.data": {
+	"\/runtime\/debug\/598375624c0eb.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dacfdd3bc7.data",
+		"oAP": "\/runtime\/debug\/598375624c0eb.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dacfe60a38.data": {
+	"\/runtime\/debug\/5983756579cc0.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dacfe60a38.data",
+		"oAP": "\/runtime\/debug\/5983756579cc0.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dad077c4bd.data": {
+	"\/runtime\/debug\/5983756a02cf5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dad077c4bd.data",
+		"oAP": "\/runtime\/debug\/5983756a02cf5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dad3fc350e.data": {
+	"\/runtime\/debug\/598378b694298.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dad3fc350e.data",
+		"oAP": "\/runtime\/debug\/598378b694298.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dad6ff25fb.data": {
+	"\/runtime\/debug\/59839aa2061d7.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dad6ff25fb.data",
+		"oAP": "\/runtime\/debug\/59839aa2061d7.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dad70852e8.data": {
+	"\/runtime\/debug\/59839aa77f427.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dad70852e8.data",
+		"oAP": "\/runtime\/debug\/59839aa77f427.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dad7e2056f.data": {
+	"\/runtime\/debug\/59839bd3bd88f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dad7e2056f.data",
+		"oAP": "\/runtime\/debug\/59839bd3bd88f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dadad77e96.data": {
+	"\/runtime\/debug\/59839bde4e5f3.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dadad77e96.data",
+		"oAP": "\/runtime\/debug\/59839bde4e5f3.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dadaf39444.data": {
+	"\/runtime\/debug\/59839be8c6cc4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dadaf39444.data",
+		"oAP": "\/runtime\/debug\/59839be8c6cc4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dadc53b19f.data": {
+	"\/runtime\/debug\/59839bf949373.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dadc53b19f.data",
+		"oAP": "\/runtime\/debug\/59839bf949373.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dadc5b7f35.data": {
+	"\/runtime\/debug\/59839c871c91a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dadc5b7f35.data",
+		"oAP": "\/runtime\/debug\/59839c871c91a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dadcf1e1c8.data": {
+	"\/runtime\/debug\/59839c88a6b27.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dadcf1e1c8.data",
+		"oAP": "\/runtime\/debug\/59839c88a6b27.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dadd26ef11.data": {
+	"\/runtime\/debug\/59839c89759db.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dadd26ef11.data",
+		"oAP": "\/runtime\/debug\/59839c89759db.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dae3a2622f.data": {
+	"\/runtime\/debug\/59839c8a69732.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dae3a2622f.data",
+		"oAP": "\/runtime\/debug\/59839c8a69732.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dae3ab22e0.data": {
+	"\/runtime\/debug\/59839cb41b7ad.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dae3ab22e0.data",
+		"oAP": "\/runtime\/debug\/59839cb41b7ad.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592db9c88af15.data": {
+	"\/runtime\/debug\/59839cbddd251.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592db9c88af15.data",
+		"oAP": "\/runtime\/debug\/59839cbddd251.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbb64d1e8a.data": {
+	"\/runtime\/debug\/59839d0855610.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbb64d1e8a.data",
+		"oAP": "\/runtime\/debug\/59839d0855610.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbb65ab6ef.data": {
+	"\/runtime\/debug\/59839d0ccaf6f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbb65ab6ef.data",
+		"oAP": "\/runtime\/debug\/59839d0ccaf6f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbc18d01d9.data": {
+	"\/runtime\/debug\/59839d4abe4cb.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbc18d01d9.data",
+		"oAP": "\/runtime\/debug\/59839d4abe4cb.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbd3dd02e4.data": {
+	"\/runtime\/debug\/59839d6038e51.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbd3dd02e4.data",
+		"oAP": "\/runtime\/debug\/59839d6038e51.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbe0b5fc19.data": {
+	"\/runtime\/debug\/59839d60cd1cd.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbe0b5fc19.data",
+		"oAP": "\/runtime\/debug\/59839d60cd1cd.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbe8b3d145.data": {
+	"\/runtime\/debug\/59839d861cc31.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbe8b3d145.data",
+		"oAP": "\/runtime\/debug\/59839d861cc31.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbe8bc069b.data": {
+	"\/runtime\/debug\/59839d947adaf.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbe8bc069b.data",
+		"oAP": "\/runtime\/debug\/59839d947adaf.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbe939ef72.data": {
+	"\/runtime\/debug\/59839dad9ada2.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbe939ef72.data",
+		"oAP": "\/runtime\/debug\/59839dad9ada2.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbea4e75d5.data": {
+	"\/runtime\/debug\/59839dafaaccc.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbea4e75d5.data",
+		"oAP": "\/runtime\/debug\/59839dafaaccc.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbea56e3e2.data": {
+	"\/runtime\/debug\/59839db101612.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbea56e3e2.data",
+		"oAP": "\/runtime\/debug\/59839db101612.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbebf575db.data": {
+	"\/runtime\/debug\/59839dc19d04a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbebf575db.data",
+		"oAP": "\/runtime\/debug\/59839dc19d04a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbec60a982.data": {
+	"\/runtime\/debug\/59839dc23d0e6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbec60a982.data",
+		"oAP": "\/runtime\/debug\/59839dc23d0e6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbece8d1d4.data": {
+	"\/runtime\/debug\/59839e0a0fa76.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbece8d1d4.data",
+		"oAP": "\/runtime\/debug\/59839e0a0fa76.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dbf707c462.data": {
+	"\/runtime\/debug\/59839e3438392.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dbf707c462.data",
+		"oAP": "\/runtime\/debug\/59839e3438392.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dc00d04326.data": {
+	"\/runtime\/debug\/59839e7389e5a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dc00d04326.data",
+		"oAP": "\/runtime\/debug\/59839e7389e5a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dc06f5f72d.data": {
+	"\/runtime\/debug\/59839e7ea1641.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dc06f5f72d.data",
+		"oAP": "\/runtime\/debug\/59839e7ea1641.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dc0822f768.data": {
+	"\/runtime\/debug\/59839ea29ad31.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dc0822f768.data",
+		"oAP": "\/runtime\/debug\/59839ea29ad31.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dc201792e6.data": {
+	"\/runtime\/debug\/59839eb287407.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dc201792e6.data",
+		"oAP": "\/runtime\/debug\/59839eb287407.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dc202b1027.data": {
+	"\/runtime\/debug\/59839ec5f17b7.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dc202b1027.data",
+		"oAP": "\/runtime\/debug\/59839ec5f17b7.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dda29ed6e3.data": {
+	"\/runtime\/debug\/59839f48c6338.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dda29ed6e3.data",
+		"oAP": "\/runtime\/debug\/59839f48c6338.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592dda2b3cc96.data": {
+	"\/runtime\/debug\/59839f69ef70d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592dda2b3cc96.data",
+		"oAP": "\/runtime\/debug\/59839f69ef70d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592df08698038.data": {
+	"\/runtime\/debug\/59839f71a2364.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592df08698038.data",
+		"oAP": "\/runtime\/debug\/59839f71a2364.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592df0b06bdd8.data": {
+	"\/runtime\/debug\/59839f9324efb.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592df0b06bdd8.data",
+		"oAP": "\/runtime\/debug\/59839f9324efb.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592df0b0ef24b.data": {
+	"\/runtime\/debug\/59839f981174f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592df0b0ef24b.data",
+		"oAP": "\/runtime\/debug\/59839f981174f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/592df0b1e2ba3.data": {
+	"\/runtime\/debug\/59839fd112f39.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/592df0b1e2ba3.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/592df0bad0e0c.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/592df0bad0e0c.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/592df0c64d13e.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/592df0c64d13e.data",
+		"oAP": "\/runtime\/debug\/59839fd112f39.data",
 		"oF": 0
 		},
 	"\/runtime\/debug\/index.data": {
@@ -17654,6 +17648,12 @@
 		"oAP": "\/views\/site\/inicio.php",
 		"oF": 0
 		},
+	"\/views\/site\/instrucciones.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/instrucciones.php",
+		"oF": 0
+		},
 	"\/views\/site\/premio.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -17787,6 +17787,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/web\/webAssets\/css\/modal-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/css\/modal-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/web\/webAssets\/css\/modal.css": {
 		"aP": 1,
 		"bl": 0,
@@ -17841,6 +17851,17 @@
 		"oAP": "\/web\/webAssets\/fonts\/ionicons\/ionicons.woff",
 		"oF": 0
 		},
+	"\/web\/webAssets\/images\/botella.png": {
+		"ft": 32768,
+		"iS": 149750,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/botella.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/web\/webAssets\/images\/check-box.png": {
 		"ft": 32768,
 		"iS": 328,
@@ -17852,11 +17873,21 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/logo-fa-with-ribbon.png": {
-		"ft": 32768,
-		"iS": 14600,
+	"\/web\/webAssets\/images\/fondorestaurante.jpg": {
+		"ft": 16384,
+		"iS": 487564,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/logo-fa-with-ribbon.png",
+		"oAP": "\/web\/webAssets\/images\/fondorestaurante.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/libreta.png": {
+		"ft": 32768,
+		"iS": 65493,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/libreta.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17874,77 +17905,66 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/ribbon.png": {
+	"\/web\/webAssets\/images\/logoportadarestaurante.png": {
 		"ft": 32768,
-		"iS": 8963,
+		"iS": 21531,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/ribbon.png",
+		"oAP": "\/web\/webAssets\/images\/logoportadarestaurante.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/slot-machine\/slot1.png": {
+	"\/web\/webAssets\/images\/logorestaurante.png": {
 		"ft": 32768,
-		"iS": 29752,
+		"iS": 3753,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot1.png",
+		"oAP": "\/web\/webAssets\/images\/logorestaurante.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/slot-machine\/slot2.png": {
+	"\/web\/webAssets\/images\/ruleta-bkgd.png": {
 		"ft": 32768,
-		"iS": 26910,
+		"iS": 17966,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot2.png",
+		"oAP": "\/web\/webAssets\/images\/ruleta-bkgd.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/slot-machine\/slot3.png": {
+	"\/web\/webAssets\/images\/sacacorchos.png": {
 		"ft": 32768,
-		"iS": 25793,
+		"iS": 6837,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot3.png",
+		"oAP": "\/web\/webAssets\/images\/sacacorchos.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/slot-machine\/slot4.png": {
+	"\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png": {
 		"ft": 32768,
-		"iS": 29475,
+		"iS": 1845,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot4.png",
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/slot-machine\/slot5.png": {
+	"\/web\/webAssets\/images\/slot-machine\/logofavcjuego.png": {
 		"ft": 32768,
-		"iS": 21049,
+		"iS": 3386,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/web\/webAssets\/images\/slot-machine\/slot6.png": {
-		"ft": 32768,
-		"iS": 25146,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/slot6.png",
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/logofavcjuego.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18185,10 +18205,10 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/sass\/site.css",
-		"oF": 0,
+		"oAP": "\/web\/webAssets\/css\/site.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -20155,6 +20175,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

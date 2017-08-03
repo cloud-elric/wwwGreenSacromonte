@@ -55,16 +55,16 @@ $this->title="Registro";
 
 				<?php
 				echo $form->field ( $usuario, 'txt_codigo' )->textInput ( [
-						'placeholder'=>'Codigo'
+						'placeholder'=>'Código'
 				] )->label(false);
 
 				echo $form->field ( $usuario, 'txt_num_empleado' )->textInput ( [
-						'placeholder'=>'Numero de empleado'
+						'placeholder'=>'PIN'
 				] )->label(false);
 				?>
-		
+
 				<div class="form-cta-wrapper">
-					<button class="btn btn-secondary ladda-button" id="js-btn-guardar-informacion"  data-style="zoom-in" type="submit"><span class="ladda-label">Enviar</span></button>
+					<button class="btn btn-primary ladda-button" id="js-btn-guardar-informacion"  data-style="zoom-in" type="submit"><span class="ladda-label">Enviar</span></button>
 				</div>
 			<?php
 			// Cierre de etiqueta </form>

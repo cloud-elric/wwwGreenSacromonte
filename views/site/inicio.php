@@ -2,6 +2,7 @@
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 $this->title = 'Fiesta americana';
@@ -9,7 +10,16 @@ $this->title = 'Fiesta americana';
 
 <div class="container container-home">
 	<!-- Main content Wrapper -->
-	<img class="logo-evento" src="webAssets/images/logo-fa-with-ribbon.png" alt="Plaza Isla">
+	<img class="logo-evento" src="<?=Url::base()?>/webAssets/images/logoportadarestaurante.png" alt="Recompensas a la Carta">
+
+	<img class="floating-img botella" src="<?=Url::base()?>/webAssets/images/botella.png" alt="Recompensas a la Carta">
+
+	<img class="floating-img sacacorchos" src="<?=Url::base()?>/webAssets/images/sacacorchos.png" alt="Recompensas a la Carta">
+
+	<img class="floating-img libreta" src="<?=Url::base()?>/webAssets/images/libreta.png" alt="Recompensas a la Carta">
+
+	<img class="floating-img logo-fa" src="<?=Url::base()?>/webAssets/images/logo-fa.png" alt="Recompensas a la Carta">
+
 	<!-- Contenedor de las tarjetas -->
 	<div class="js-tarjetas-contenedor">
 
