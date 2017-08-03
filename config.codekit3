@@ -17883,7 +17883,7 @@
 		},
 	"\/web\/webAssets\/images\/botella.png": {
 		"ft": 32768,
-		"iS": 149750,
+		"iS": 160061,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/botella.png",
 		"oF": 0,
@@ -17903,11 +17903,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/fondorestaurante.jpg": {
+	"\/web\/webAssets\/images\/fondorestaurantes.jpg": {
 		"ft": 16384,
-		"iS": 487564,
+		"iS": 228356,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/fondorestaurante.jpg",
+		"oAP": "\/web\/webAssets\/images\/fondorestaurantes.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17937,7 +17937,7 @@
 		},
 	"\/web\/webAssets\/images\/logoportadarestaurante.png": {
 		"ft": 32768,
-		"iS": 21531,
+		"iS": 30676,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/logoportadarestaurante.png",
 		"oF": 0,
@@ -17948,7 +17948,7 @@
 		},
 	"\/web\/webAssets\/images\/logorestaurante.png": {
 		"ft": 32768,
-		"iS": 3753,
+		"iS": 11862,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/logorestaurante.png",
 		"oF": 0,
@@ -17973,17 +17973,6 @@
 		"iS": 6837,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/sacacorchos.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png": {
-		"ft": 32768,
-		"iS": 1845,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
