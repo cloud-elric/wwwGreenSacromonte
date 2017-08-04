@@ -509,6 +509,42 @@
 		"oAP": "\/runtime\/debug\/5983b8cd83be0.data",
 		"oF": 0
 		},
+	"\/runtime\/debug\/5983ba5bc30be.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983ba5bc30be.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983ba5e4930a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983ba5e4930a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983ba5f1e5b2.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983ba5f1e5b2.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983ba7720f68.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983ba7720f68.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983ba77ae368.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983ba77ae368.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983ba7ce9ac4.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983ba7ce9ac4.data",
+		"oF": 0
+		},
 	"\/runtime\/debug\/index.data": {
 		"ft": 8192,
 		"oA": 2,
@@ -17869,7 +17905,7 @@
 		},
 	"\/web\/webAssets\/images\/fondorestaurante.jpg": {
 		"ft": 16384,
-		"iS": 160492,
+		"iS": 315982,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/fondorestaurante.jpg",
 		"oF": 0,
@@ -17945,7 +17981,7 @@
 		},
 	"\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png": {
 		"ft": 32768,
-		"iS": 4286,
+		"iS": 2589,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png",
 		"oF": 0,
