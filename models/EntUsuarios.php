@@ -45,12 +45,12 @@ class EntUsuarios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_restaurante', 'id_cupon', 'txt_nombre_completo', 'txt_token', 'txt_telefono_celular', 'num_edad'], 'required'],
+            [['id_restaurante', 'id_cupon', 'txt_nombre_completo', 'txt_token', 'txt_telefono_celular', 'num_edad'], 'required', 'message'=>'Campo requerido'],
             [['id_restaurante', 'id_cupon', 'num_edad', 'b_aceptar_terminos', 'b_participo', 'b_tiempo', 'b_gano'], 'integer'],
             [['fch_registro'], 'safe'],
             [['txt_nombre_completo', 'txt_token'], 'string', 'max' => 150],
-            [['txt_telefono_celular'], 'string', 'max' => 10],
-            [['txt_cp'], 'string', 'max' => 5],
+            [['txt_telefono_celular'], 'string', 'max' => 10, 'min' => 10, 'tooLong' => 'El campo no debe superar 10 dígitos','tooShort' => 'El campo debe ser mínimo de 10 digítos'],
+            [['txt_cp'], 'string', 'max' => 5, 'min'=>5,'tooLong' => 'El campo no debe superar 5 dígitos','tooShort' => 'El campo debe ser mínimo de 5 digítos'],
             [['txt_email', 'txt_codigo', 'txt_num_empleado'], 'string', 'max' => 50],
             [['id_cupon'], 'exist', 'skipOnError' => true, 'targetClass' => CatCupones::className(), 'targetAttribute' => ['id_cupon' => 'id_cupon']],
             [['id_restaurante'], 'exist', 'skipOnError' => true, 'targetClass' => CatRestaurantes::className(), 'targetAttribute' => ['id_restaurante' => 'id_restaurante']],
