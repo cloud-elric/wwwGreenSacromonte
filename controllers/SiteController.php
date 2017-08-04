@@ -86,13 +86,17 @@ class SiteController extends Controller {
 
 			$usuario->id_restaurante = ConstantesWeb::ID_RESTAURANTE;
 			$cupon = CatCupones::find()->where(['txt_cupon'=>$usuario->txt_codigo])->one();
-			$cuponUsado = EntUsuarios::find()->where(['id_cupon'=>$cupon->id_cupon])->one();
-			if(!$cuponUsado){
-				$usuario->id_cupon = $cupon->id_cupon;
-				$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
-				if ($usuario->save ()) {
-					return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
-				}
+			if($cupon){
+				$cuponUsado = EntUsuarios::find()->where(['id_cupon'=>$cupon->id_cupon])->one();
+				if(!$cuponUsado){
+					$usuario->id_cupon = $cupon->id_cupon;
+					$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
+					if ($usuario->save ()) {
+						return $this->redirect(['slot-machine', 'token'=>$usuario->txt_token]);
+					}
+				}else{
+					$usuario->addError('txt_codigo', 'Código no válido');
+				}	
 			}else{
 				$usuario->addError('txt_codigo', 'Código no válido');
 			}	
