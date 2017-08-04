@@ -52,7 +52,7 @@ $this->title="Registro";
 							de privacidad</span>
 					</p>
 				</div>
-
+				
 				<?php
 				echo $form->field ( $usuario, 'txt_codigo' )->textInput ( [
 						'placeholder'=>'Código'
