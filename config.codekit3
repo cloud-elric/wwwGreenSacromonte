@@ -203,138 +203,6 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5983731bd5380.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983731bd5380.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983731e7a2d3.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983731e7a2d3.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983732ec77a1.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983732ec77a1.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/598373b958b94.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/598373b958b94.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/598373d81606d.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/598373d81606d.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59837404e099a.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59837404e099a.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983742b11bc6.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983742b11bc6.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983742fc9030.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983742fc9030.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983755157dbd.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983755157dbd.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59837552bbf6a.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59837552bbf6a.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59837561b17a4.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59837561b17a4.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/598375624c0eb.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/598375624c0eb.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983756579cc0.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983756579cc0.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5983756a02cf5.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5983756a02cf5.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/598378b694298.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/598378b694298.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839aa2061d7.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839aa2061d7.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839aa77f427.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839aa77f427.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839bd3bd88f.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839bd3bd88f.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839bde4e5f3.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839bde4e5f3.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839be8c6cc4.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839be8c6cc4.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839bf949373.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839bf949373.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59839c871c91a.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59839c871c91a.data",
-		"oF": 0
-		},
 	"\/runtime\/debug\/59839c88a6b27.data": {
 		"ft": 8192,
 		"oA": 2,
@@ -543,6 +411,102 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/runtime\/debug\/5983a273d841e.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b287a4463.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b287a4463.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b28adfdee.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b28adfdee.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b291ba252.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b291ba252.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b2a2a02e5.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b2a2a02e5.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b2a345e6e.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b2a345e6e.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b2a829f0b.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b2a829f0b.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b2ad5a52b.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b2ad5a52b.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b795c7ba5.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b795c7ba5.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b797038a4.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b797038a4.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b797efde4.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b797efde4.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b7a6ed3ec.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b7a6ed3ec.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b7a78a932.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b7a78a932.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b7fea6a97.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b7fea6a97.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b80593346.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b80593346.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b808c0885.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b808c0885.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5983b8cd83be0.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5983b8cd83be0.data",
 		"oF": 0
 		},
 	"\/runtime\/debug\/index.data": {
@@ -17887,8 +17851,8 @@
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/botella.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -17903,11 +17867,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/fondorestaurantes.jpg": {
+	"\/web\/webAssets\/images\/fondorestaurante.jpg": {
 		"ft": 16384,
-		"iS": 228356,
+		"iS": 160492,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/fondorestaurantes.jpg",
+		"oAP": "\/web\/webAssets\/images\/fondorestaurante.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17941,8 +17905,8 @@
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/logoportadarestaurante.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -17973,6 +17937,17 @@
 		"iS": 6837,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/sacacorchos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png": {
+		"ft": 32768,
+		"iS": 4286,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/slot-machine\/logo-restaurante-juego.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
