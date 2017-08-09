@@ -54,9 +54,9 @@ $this->title="Registro";
 				</div>
 				
 				<?php
-				echo $form->field ( $usuario, 'txt_codigo' )->textInput ( [
+				/*echo $form->field ( $usuario, 'txt_codigo' )->textInput ( [
 						'placeholder'=>'Código'
-				] )->label(false);
+				] )->label(false);*/
 
 				echo $form->field ( $usuario, 'txt_num_empleado' )->textInput ( [
 						'placeholder'=>'PIN'
