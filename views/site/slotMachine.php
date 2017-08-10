@@ -13,12 +13,18 @@ use yii\web\View;
 <input type="hidden" value="<?=$token?>" id="js-token-usuario" />
 
 <div class="container container-home">
+
+	<h2>Tu habilidad te hará ganar</h2>
   <div class="ruleta-bkgd">
 
 
 					<div id="casino1" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
+						<div class="slot slot3"></div>
+						<div class="slot slot4"></div>
+						<div class="slot slot5"></div>
+						<div class="slot slot6"></div>
 
 
 					</div>
@@ -27,13 +33,21 @@ use yii\web\View;
 					  <div class="slot slot1"></div>
 						<div class="slot slot2"></div>
 						<div class="slot slot3"></div>
+						<div class="slot slot3"></div>
+						<div class="slot slot4"></div>
+						<div class="slot slot5"></div>
+						<div class="slot slot6"></div>
 
 
 					</div>
 
 					<div id="casino3" class="slotMachine">
-					  <div class="slot slot1"></div>
+					  	<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
+						<div class="slot slot3"></div>
+						<div class="slot slot4"></div>
+						<div class="slot slot5"></div>
+						<div class="slot slot6"></div>
 
 
 					</div>
@@ -41,6 +55,10 @@ use yii\web\View;
 					<div id="casino4" class="slotMachine">
 						<div class="slot slot1"></div>
 						<div class="slot slot2"></div>
+						<div class="slot slot3"></div>
+						<div class="slot slot4"></div>
+						<div class="slot slot5"></div>
+						<div class="slot slot6"></div>
 
 
 					</div>
