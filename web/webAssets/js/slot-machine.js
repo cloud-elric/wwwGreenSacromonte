@@ -62,19 +62,31 @@ function stop() {
     switch (started) {
         case 4:
             machine4.stop();
-            arregloPremios[started-1]= machine4.active;
+
+            if(machine4.active==0){
+                   bandera++;
+            }
+
+            
             break;
         case 3:
             machine5.stop();
-            arregloPremios[started-1]= machine5.active;
+
+            if(machine5.active==0){
+                bandera++;
+            }
             break;
         case 2:
             machine6.stop();
-            arregloPremios[started-1]= machine6.active;
+            if(machine6.active==0){
+                bandera++;
+            };
             break;
         case 1:
             machine7.stop();
-            arregloPremios[started-1]= machine7.active;
+            if(machine7.active==0){
+                bandera++;
+            }
             break;
     }
     started--;
@@ -86,20 +98,20 @@ function stop() {
 }
 
 function validarPremio(){
-
+bandera--;
         arregloPremios.sort();
 
         //console.log(arregloPremios);
 
-        for(var i = 0; i<(arregloPremios.length)-1; i++){
-            if(arregloPremios[i]==arregloPremios[i+1]){
-                bandera++;
-            }
-        }
+        // for(var i = 0; i<(arregloPremios.length)-1; i++){
+        //     if(arregloPremios[i]==arregloPremios[i+1]){
+        //         bandera++;
+        //     }
+        // }
 
         //console.log(bandera);
         reclamarPremio();
-        bandera = 0;
+        //bandera = 0;
         arregloPremios=[];
 }
 
@@ -109,6 +121,7 @@ function reclamarPremio(){
         success: function(resp){
             $('#js-contenedor-modal').html(resp);
             $('.modal').show();
+            bandera = 0;
         }
     });
 }
