@@ -109,8 +109,12 @@ bandera--;
         //     }
         // }
 
+        setTimeout(function() {
+            reclamarPremio();    
+        }, 3000);
+
         //console.log(bandera);
-        reclamarPremio();
+        
         //bandera = 0;
         arregloPremios=[];
 }
